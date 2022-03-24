@@ -2,7 +2,7 @@ package com.bytelegend;
 
 public class Main {
     public static byte int2byte(int i) {
-        return return new Integer(i).byteValue();
+        return new Integer(i).byteValue();
     }
 
     public static short int2short(int i) {
