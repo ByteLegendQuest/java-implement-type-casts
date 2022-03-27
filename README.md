@@ -7,7 +7,6 @@
 
 Complete the data type cast methods in [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-implement-type-casts/blob/main/src/main/java/com/bytelegend/Main.java).
 
-```
 - You can accomplish this challenge via any way below:
   - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-implement-type-casts` to download the code,
     finish the challenge in your local IDE, then copy/paste/submit the answer in web editor.
