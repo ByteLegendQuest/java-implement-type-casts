@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Main {
-    public static byte int2byte(int i) {
+        public static byte int2byte(int i) {
         return (byte) i;
     }
 
@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static char int2char(int i) {
-        return char.valueOf(i);
+        return Character.forDigit(i, 10);
     }
 
     // Cast an int to String, e.g. 123 -> "123"
@@ -29,10 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return (int) l;
+        return Math.toIntExact(l);
     }
 
     public static long double2Long(Double d) {
-        return (double) d;
+        return (new Double(d)).longValue();
     }
 }
