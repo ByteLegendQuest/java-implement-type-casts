@@ -29,10 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return l.intValue();
+        return (int) l;
     }
 
     public static long double2Long(Double d) {
-        return d.intValue();
+        return (double) d;
     }
 }
