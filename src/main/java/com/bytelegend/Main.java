@@ -29,7 +29,7 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return (int) l;
+        return Math.toIntExact(l);
     }
 
     public static long double2Long(Double d) {
