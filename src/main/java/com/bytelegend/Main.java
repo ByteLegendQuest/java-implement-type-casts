@@ -1,3 +1,5 @@
+package com.bytelegend;
+
 public class Main {
     public static byte int2byte(int i) {
         return (byte) i;
@@ -27,10 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return l.intValue();
+        return (int) l;
     }
 
     public static long double2Long(Double d) {
-        return d.intValue();
+        return (long) d;
     }
 }
