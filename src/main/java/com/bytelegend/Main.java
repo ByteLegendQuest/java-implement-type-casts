@@ -1,6 +1,7 @@
 package com.bytelegend;
 
 public class Main {
+    
     public static byte int2byte(int i) {
         return i;
     }
