@@ -33,6 +33,6 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-        return (int) d;
+        return (long) d;
     }
 }
