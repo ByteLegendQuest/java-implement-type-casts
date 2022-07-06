@@ -29,10 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return (int) l;
+        return (int) (long) l;
     }
 
     public static long double2Long(Double d) {
-        return (long) d;
+        return (long) (double) d;
     }
 }
