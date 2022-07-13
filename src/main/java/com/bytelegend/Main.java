@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static char int2char(int i) {
-        return Character.forDigit(i, 10);
+        return (char) i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
