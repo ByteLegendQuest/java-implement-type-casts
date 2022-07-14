@@ -40,7 +40,7 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-        long d = d
-        return d;
+        long d2 = d;
+        return d2;
     }
 }
