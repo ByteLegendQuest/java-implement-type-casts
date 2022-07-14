@@ -1,46 +1,43 @@
 package com.bytelegend;
 
 public class Main {
-    public static byte int2byte(int i) { 
-        byte i2 = i;
-        return i2;
+    public static byte int2byte(int i) {
+        return (byte) i;
     }
 
     public static short int2short(int i) {
-        short i2 = i;
-        return i2;
+        return (short) i;
     }
 
     public static char int2char(int i) {
-        char i2 = i;
-        return i;
+        return (char) i;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String i2 = i;
-        return i;
+        String s = String.valueOf(i);
+        return s;
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        int s2 = s;
-        return s2;
+        int i = Integer.parseInt(s);
+        return i;
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        double s2 = s;
-        return s2;
+        double d = Double.parseDouble(s);
+        return d;
     }
 
     public static int castLong2int(Long l) {
-        int l2 = l;
-        return l2;
+        return l.intValue();
     }
 
     public static long double2Long(Double d) {
-        long d2 = d;
-        return d2;
+        String s = String.valueOf(d);
+        long l = Long.parseLong(s);
+        return l;
     }
 }
