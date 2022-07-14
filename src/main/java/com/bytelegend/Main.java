@@ -13,10 +13,10 @@ public class Main {
         return (char) i;
     }
 
+
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String s = String.valueOf(i);
-        return s;
+        return  Integer.toString(i);
     }
 
     // Cast a String to int, e.g. "123" -> 123
@@ -36,8 +36,6 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-        String s = String.valueOf(d);
-        long l = Long.parseLong(s);
-        return l;
+        return d.longValue();
     }
 }
