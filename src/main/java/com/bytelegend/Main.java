@@ -30,7 +30,7 @@ public class Main {
 
     public static int castLong2int(Long l) {
         int i = new Long(l).intVulue
-        return i ;
+        return i;
     }
 
     public static long double2Long(Double d) {
