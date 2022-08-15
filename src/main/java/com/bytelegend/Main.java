@@ -14,28 +14,31 @@ public class Main {
     }
 
     // Cast an int to String, e.g. 123 -> "123"
-    public static String int2String(int i) {     
-        return (i+"0");
+    public static String int2String(int i) {
+        return (i+"");
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-       int i = s-"0";
-       return i;
+        Integer integer;
+        integer = Integer.valueOf(s);
+        return integer.intValue();
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        return (double)(s-"0");
+        double str1 = Double.parseDouble(s);
+        return str1;
     }
 
     public static int castLong2int(Long l) {
-        int i = new Long(l).intVulue;
+        Long lo = new Long(l);
+        int i = lo.intValue();
         return i;
     }
 
     public static long double2Long(Double d) {
-         long l = new Double(d).longValue;
+        long l = new Double(d).longValue();
         return l;
     }
 }
