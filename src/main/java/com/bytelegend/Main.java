@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-         long l = new Double(d).longValue
+         long l = new Double(d).longValue;;
         return l;
     }
 }
