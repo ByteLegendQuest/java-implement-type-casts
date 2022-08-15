@@ -20,7 +20,7 @@ public class Main {
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-       return (s - "0")
+       return (s - "0");
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
