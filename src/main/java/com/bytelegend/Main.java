@@ -15,12 +15,15 @@ public class Main {
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        return (String)i;
+        
+        return (i+"0");
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        return (int)s;
+        Integer integer;
+    integer = Integer.valueOf(s);
+    return integer.intValue();
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
