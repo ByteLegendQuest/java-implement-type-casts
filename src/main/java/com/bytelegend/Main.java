@@ -30,7 +30,7 @@ public class Main {
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        double b = Double.valueOf(s);
+        double b = Double.parseDouble(s);
         return b;
     }
 
