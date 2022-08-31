@@ -24,7 +24,7 @@ public class Main {
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        int b = Integer.valueOf(s);
+        int b = Integer.parseInt(s);
         return b;
     }
 
