@@ -2,17 +2,17 @@ package com.bytelegend;
 
 public class Main {
     public static byte int2byte(int i) {
-        byte b = (byte)i;
+        byte b = (byte) i;
         return b;
     }
 
     public static short int2short(int i) {
-        short b = (short)i;
+        short b = (short) i;
         return b;
     }
 
     public static char int2char(int i) {
-        char b = (char)i;
+        char b = (char) i;
         return b;
     }
 
@@ -35,12 +35,12 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        int b = (int)l;
+        int b = (int) l;
         return b;
     }
 
     public static long double2Long(Double d) {
-        Long b = (double)d;
+        Long b = (double) d;
         return b;
     }
 }
