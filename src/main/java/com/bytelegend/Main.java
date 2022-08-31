@@ -12,13 +12,13 @@ public class Main {
     }
 
     public static char int2char(int i) {
-        char b = (char) (i+'0');
+        char b = (char) (i + '0');
         return b;
     }
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String b = String.valueOf(i);
+        String b = Integer.toString(i);
         return b;
     }
 
