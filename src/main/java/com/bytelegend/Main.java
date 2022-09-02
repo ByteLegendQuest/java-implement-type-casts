@@ -35,12 +35,12 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        int b = (int) l;
+        int b = Math.toIntExac(l);
         return b;
     }
 
     public static long double2Long(Double d) {
-        long b = (long) d;
+        long b = Double.valueOf(d).longValue();
         return b;
     }
 }
