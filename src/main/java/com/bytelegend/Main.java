@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static char int2char(int i) {
-        char b = (char) (i);
+        char b = (char) (i+'0');
         return b;
     }
 
@@ -40,7 +40,7 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-        Long b = (long) d;
+        long b = (long) d;
         return b;
     }
 }
