@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        int b = Math.toIntExac(l);
+        int b = Math.toIntExact(l);
         return b;
     }
 
