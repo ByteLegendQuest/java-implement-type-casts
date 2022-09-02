@@ -18,7 +18,7 @@ public class Main {
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String b = Integer.toString(i);
+        String b = String.valueof(i);
         return b;
     }
 
