@@ -18,19 +18,19 @@ public class Main {
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String b = String.valueof(i);
+        String b = String.valueOf(i);
         return b;
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        int b = Integer.valueof(s);
+        int b = Integer.valueOf(s);
         return b;
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        double b = Double.parseDouble(s);
+        double b = Double.valueOf(s);
         return b;
     }
 
