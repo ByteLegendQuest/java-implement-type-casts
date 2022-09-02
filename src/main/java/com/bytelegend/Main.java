@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static char int2char(int i) {
-        char b = (char) (i + '0');
+        char b = (char) (i);
         return b;
     }
 
