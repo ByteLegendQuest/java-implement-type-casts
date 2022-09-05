@@ -36,9 +36,3 @@ public class Main {
         return d.longValue();
     }
 }
-
-
-    public static long double2Long(Double d) {
-        return d;
-    }
-}
