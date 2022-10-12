@@ -2,25 +2,25 @@ package com.bytelegend;
 
 public class Main {
     public static byte int2byte(int i) {
-        return Byte.parseByte(i.toSring());
+        return (byte)(i & 0xFF);;
     }
 
     public static short int2short(int i) {
-        return Short.parseShort(i.toSring());
+        return (short)i;
     }
 
     public static char int2char(int i) {
-        return Character.getDirectionality(i);
+        return (char) (i+'0');
     }
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        return i.toSring();
+        return String.valueOf(i);
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        return Integer.parseInt(s);
+        return Integer.valueOf(s).intValue();;
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
@@ -33,6 +33,6 @@ public class Main {
     }
 
     public static long double2Long(Double d) {
-        return (long)d;
+        return Double(d).longValue();;
     }
 }
