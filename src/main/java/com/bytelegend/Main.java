@@ -2,15 +2,15 @@ package com.bytelegend;
 
 public class Main {
     public static byte int2byte(int i) {
-        return i;
+        return Byte.parseByte(i.toSring());
     }
 
     public static short int2short(int i) {
-        return i;
+        return Short.parseShort(i.toSring());
     }
 
     public static char int2char(int i) {
-        return i;
+        return Character.getDirectionality(i);
     }
 
     // Cast an int to String, e.g. 123 -> "123"
@@ -29,10 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return l;
+        return Integer.parseInt(l.toSring());
     }
 
     public static long double2Long(Double d) {
-        return d;
+        return (long)d;
     }
 }
