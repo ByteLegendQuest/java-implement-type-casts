@@ -2,7 +2,7 @@ package com.bytelegend;
 
 public class Main {
     public static byte int2byte(int i) {
-        return (byte)i;
+        return (byte) i;
     }
 
     public static short int2short(int i) {
@@ -25,11 +25,11 @@ public class Main {
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        return  Double.parseDouble(s);
+        return Double.parseDouble(s);
     }
 
     public static int castLong2int(Long l) {
-        return (int) l;
+        return new Long(l).intValue();
     }
 
     public static long double2Long(Double d) {
