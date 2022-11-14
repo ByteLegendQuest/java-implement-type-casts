@@ -28,11 +28,11 @@ public class Main {
         return Double.parseDouble(s);
     }
 
-    public static int castLong2int(Long l) {
+    public static int castLong2int(long l) {
         return (int)l;
     }
 
-    public static long double2Long(Double d) {
+    public static long double2Long(double d) {
         return (long)d;
     }
 }
