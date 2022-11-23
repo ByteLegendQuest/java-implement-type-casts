@@ -15,7 +15,7 @@ public class Main {
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        return Interger.toString(i);
+        return Integer.toString(i);
     }
 
     // Cast a String to int, e.g. "123" -> 123
