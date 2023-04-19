@@ -1,7 +1,5 @@
 package com.bytelegend;
 
-package com.bytelegend;
-
 public class Main {
     public static byte int2byte(int i) {
         return (byte) i;
@@ -31,11 +29,10 @@ public class Main {
     }
 
     public static int castLong2int(Long l) {
-        return Math.toIntExact(l);
+        return l.intValue();
     }
 
     public static long double2Long(Double d) {
-        return Math.round(d);
+        return d.longValue();
     }
 }
-
