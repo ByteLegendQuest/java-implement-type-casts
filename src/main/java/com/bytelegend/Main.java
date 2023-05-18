@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static short int2short(int i) {
-        short s = (short)i;
+        short s = (short) i;
         return s;
     }
 
