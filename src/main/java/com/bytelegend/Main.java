@@ -18,29 +18,29 @@ public class Main {
 
     // Cast an int to String, e.g. 123 -> "123"
     public static String int2String(int i) {
-        String s = String.valueOf(i);
+        String s = Integer.toString(i);
         return s;
     }
 
     // Cast a String to int, e.g. "123" -> 123
     public static int string2int(String s) {
-        int i = Integer.valueOf(s);
+        int i = Integer.parseInt(s);
         return i;
     }
 
     // Cast a String to double, e.g. "1.23" -> 1.23
     public static double string2double(String s) {
-        double d = Double.valueOf(s);
+        double d = Double.parseDouble(s);
         return d;
     }
 
     public static int castLong2int(Long l) {
-        int i = Integer.valueOf(l.toString());
+        int i = l.intValue();
         return i;
     }
 
     public static long double2Long(Double d) {
-        long l = Long.valueOf(d.toString());
+        Long l =  Math.round(d);
         return l;
     }
 }
